@@ -1,0 +1,15 @@
+﻿<NavLink class="nav-link" href="inventory-management">
+    Inventory Management
+</NavLink>
+
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

@@ -1,0 +1,92 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('/images/abc.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    padding: 20px;
+    text-align: left;
+    width: 90vw; /* 90% of viewport width */
+    max-width: 1200px; /* Increased maximum width for larger screens */
+    height: 80vh; /* 80% of viewport height */
+    max-height: 800px; /* Maximum height for larger screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project-by {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 20px; /* Adjust spacing from top */
+    margin-left: 20px; /* Adjust spacing from left */
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Adjust spacing from top */
+    margin-right: 20px; /* Adjust spacing from right */
+}
+
+    .nav-buttons a {
+        text-decoration: none;
+        color: #6a5acd;
+        margin: 0 10px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-family: 'Fredoka', sans-serif; /* Use Fredoka for button text */
+    }
+
+        .nav-buttons a:hover {
+            background: #6a5acd;
+            color: white;
+        }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px; /* Adjust margin to align with header */
+    margin-left: 20px; /* Adjust spacing from left to align with "Project By UUFH" */
+}
+
+.text-content {
+    flex: 2; /* Ensure text content takes more space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text content vertically */
+}
+
+    .text-content h1 {
+        font-size: 3.5em;
+        color: #333;
+        margin-bottom: 20px;
+        font-family: 'Fredoka', sans-serif; /* Use Fredoka Bold for heading */
+        font-weight: 700;
+    }
+
+    .text-content p {
+        font-size: 1.5em;
+        color: #666;
+        margin-bottom: 40px;
+        font-family: 'Fredoka', sans-serif; /* Use Fredoka Light for paragraph */
+        font-weight: 300;
+    }

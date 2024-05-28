@@ -1,0 +1,74 @@
+﻿@page "/index"
+@using Microsoft.AspNetCore.Components
+@inject NavigationManager Navigation
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<PageTitle>Home - My Project</PageTitle>
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">IMSProject</a>
+    </div>
+</div>
+
+<div class="hero">
+    <h1>Welcome to My Project</h1>
+    <p>Explore our innovative features and see how we can help you achieve your goals. Join us on this journey and make the most of our offerings.</p>
+</div>
+
+<div class="features">
+    <div class="feature">
+        <h2>Feature 1</h2>
+        <p>Our first feature offers unparalleled performance and reliability.</p>
+    </div>
+    <div class="feature">
+        <h2>Feature 2</h2>
+        <p>Experience seamless integration and ease of use with our second feature.</p>
+    </div>
+    <div class="feature">
+        <h2>Feature 3</h2>
+        <p>Discover the advanced capabilities and customizability of our third feature.</p>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-button">
+        <h2>Home</h2>
+        <a href="/">Go to Home</a>
+    </div>
+    <div class="nav-button">
+        <h2>Item List</h2>
+        <a href="items">Go to Item List</a>
+    </div>
+    <div class="nav-button">
+        <h2>Category</h2>
+        <a href="categories">Go to Category</a>
+    </div>
+    <div class="nav-button">
+        <h2>Category Group</h2>
+        <a href="groupcategories">Go to Category Group</a>
+    </div>
+    <div class="nav-button">
+        <h2>Measurement Units</h2>
+        <a href="measurementunits">Go to Measurement Units</a>
+    </div>
+    <div class="nav-button">
+        <h2>Chart Of Accounts</h2>
+        <a href="coas">Go to Chart Of Accounts</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 My Project. All rights reserved.</p>
+    <p><a href="/contact">Contact Us</a> | <a href="/privacy">Privacy Policy</a></p>
+</div>
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+</html>

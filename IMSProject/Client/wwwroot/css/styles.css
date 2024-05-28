@@ -1,0 +1,104 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.hero {
+    background: linear-gradient(to right, #6f42c1, #8a2be2); /* Purple gradient */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+    .hero h1 {
+        margin: 0;
+        font-size: 3em;
+    }
+
+    .hero p {
+        margin: 20px 0 0;
+        font-size: 1.2em;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero .cta {
+        margin-top: 30px;
+        padding: 10px 20px;
+        font-size: 1.1em;
+        background-color: #6f42c1; /* Purple button */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .hero .cta:hover {
+            background-color: #8a2be2; /* Darker purple on hover */
+        }
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.feature, .nav-button {
+    flex: 1 1 30%;
+    margin: 0 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .feature h2, .nav-button h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: #6f42c1; /* Purple heading */
+    }
+
+    .feature p, .nav-button p {
+        margin: 0;
+    }
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+    .footer a {
+        color: #6f42c1; /* Purple footer link */
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+.nav-button a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #6f42c1; /* Purple button */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+    .nav-button a:hover {
+        background-color: #8a2be2; /* Darker purple on hover */
+    }

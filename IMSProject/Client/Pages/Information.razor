@@ -1,0 +1,95 @@
+﻿@page "/information"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2em;
+        }
+
+        .team-member {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 1em;
+            padding: 2em;
+            text-align: center;
+            width: 250px;
+        }
+
+        .team-photo {
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            margin-top: 0.5em;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meet Our Team</h1>
+    </header>
+    <main>
+        <div class="team-member">
+            <img src="/images/hassan.jpg" alt="Team Member 1" class="team-photo" />
+            <h2>Muhammad Hassan</h2>
+            <p>Implementation</p>
+            <p>Spearheaded the implementation process, leveraging his extensive expertise to ensure the project's success.</p>
+        </div>
+
+        <div class="team-member">
+            <img src="/images/usman1.jpeg" alt="Team Member 2" class="team-photo" />
+            <h2>Muhammad Usman</h2>
+            <p>Implementation</p>
+            <p>Jane leads our technology division, ensuring our products are top-notch and innovative.</p>
+        </div>
+
+        <div class="team-member">
+            <img src="/images/usman.jpeg" alt="Team Member 2" class="team-photo" />
+            <h2>Muhammad Usman</h2>
+            <p>Database</p>
+            <p>Orchestrated the database workings, applying her seasoned knowledge to optimize data management and retrieval efficiently.</p>
+        </div>
+
+        <div class="team-member">
+            <img src="/images/furqan.jpg" alt="Team Member 2" class="team-photo" />
+            <h2>Furqan Rasheed</h2>
+            <p>User Interface</p>
+            <p>led the UI development efforts, employing his creative flair and technical proficiency to craft engaging and user-friendly interfaces.</p>
+        </div>
+    </main>
+</body>
+</html>
